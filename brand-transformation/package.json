@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts",
+    "clean": "ts-node src/clean.ts",
     "transform": "ts-node src/transform-brands.ts",
     "seed": "ts-node src/seed-brands.ts",
-    "export": "ts-node src/export-brands.ts"
+    "import": "ts-node src/import-brands.ts",
+    "export": "ts-node src/export-brands.ts",
+    "run-all": "pnpm run import && pnpm run transform && pnpm run seed && pnpm run export"
   },
   "keywords": [],
   "author": "",
