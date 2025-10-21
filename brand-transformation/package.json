@@ -9,7 +9,7 @@
     "seed": "ts-node src/seed-brands.ts",
     "import": "ts-node src/import-brands.ts",
     "export": "ts-node src/export-brands.ts",
-    "run-all": "pnpm run import && pnpm run transform && pnpm run seed && pnpm run export"
+    "run-all": "pnpm run clean && pnpm run import && pnpm run transform && pnpm run seed && pnpm run export"
   },
   "keywords": [],
   "author": "",

@@ -5,7 +5,7 @@ import fs from "fs";
 async function exportBrands() {
   await connectDB();
 
-  // lean() to get plain JS objects instead of Mongoose documents
+  // lean() to get plain JS objects instead of mong. docs
   const brands = await Brand.find().lean(); 
 
   fs.writeFileSync("brands_transformed.json", JSON.stringify(brands, null, 2));
