@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@faker-js/faker':
-    specifier: ^10.1.0
-    version: 10.1.0
+    specifier: '9'
+    version: 9.9.0
   dotenv:
     specifier: ^17.2.3
     version: 17.2.3
@@ -38,9 +38,9 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@faker-js/faker@10.1.0:
-    resolution: {integrity: sha512-C3mrr3b5dRVlKPJdfrAXS8+dq+rq8Qm5SNRazca0JKgw1HQERFmrVb0towvMmw5uu8hHKNiQasMaR/tydf3Zsg==}
-    engines: {node: ^20.19.0 || ^22.13.0 || ^23.5.0 || >=24.0.0, npm: '>=10'}
+  /@faker-js/faker@9.9.0:
+    resolution: {integrity: sha512-OEl393iCOoo/z8bMezRlJu+GlRGlsKbUAN7jKB6LhnKoqKve5DXRpalbItIIcwnCjs1k/FOPjFzcA6Qn+H+YbA==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
     dev: false
 
   /@jridgewell/resolve-uri@3.1.2:
