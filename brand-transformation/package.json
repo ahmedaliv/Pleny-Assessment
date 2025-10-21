@@ -1,0 +1,26 @@
+{
+  "name": "brand-transformation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "transform": "ts-node src/transform-brands.ts",
+    "seed": "ts-node src/seed-brands.ts",
+    "export": "ts-node src/export-brands.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
