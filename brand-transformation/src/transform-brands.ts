@@ -69,6 +69,7 @@ async function transformBrands() {
     }
     // console.log("Transformation Done.");
     // mongoose.disconnect();
+    process.exit(0);
 
 }
 
