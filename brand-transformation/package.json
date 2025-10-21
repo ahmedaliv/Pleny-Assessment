@@ -15,7 +15,8 @@
   "dependencies": {
     "@faker-js/faker": "9",
     "dotenv": "^17.2.3",
-    "mongoose": "^8.19.2"
+    "mongoose": "^8.19.2",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
